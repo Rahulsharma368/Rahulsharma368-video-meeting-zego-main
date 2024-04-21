@@ -1,0 +1,9 @@
+name: Rahulsharma368-video-meeting-zego-main
+
+functions:
+  app:
+    handler: main.app
+    memory: 1024MB
+    timeout: 30s
+    events:
+      - http: '* *'
