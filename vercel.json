@@ -1,7 +1,8 @@
 {
   "functions": {
     "api": {
-      "handler": "main.app"
+      "runtime": "vercel-python",
+      "memory": 1024
     }
   }
 }
